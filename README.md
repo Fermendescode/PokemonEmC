@@ -64,6 +64,7 @@ O cálculo utiliza os atributos de ataque e defesa:
 
 ```c
 dano = atacante->AT - defensor->DF / 2;
+```
 
 O dano mínimo aplicado é de 1.
 
@@ -107,7 +108,10 @@ Pokemon-Battle/
 ├── main.c
 ├── lista.c
 ├── lista.h
+├── pokemon.c
+├── pokemon.h
 └── README.md
+
 main.c
 
 Contém a lógica principal do programa, incluindo:
@@ -123,6 +127,14 @@ Contém as funções responsáveis pelo gerenciamento da lista encadeada.
 lista.h
 
 Contém as estruturas e os protótipos das funções utilizadas no projeto.
+
+pokemon.c
+
+Contém os dados dos pokemons e a função para gerar os times.
+
+pokemon.h
+
+Contém as estruturas e os protótipos das funções utilizadas no pokemon.c.
 
 Principais funções
 CriarLista()
